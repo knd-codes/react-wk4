@@ -15,14 +15,14 @@ export default function App() {
           target="_blank"
           rel="noreferrer"
         >
-        </a>
        {" "} and {" "}
         <a
-          href="https://nervous-fermi-738c74.netlify.app"
+          href="https://friendly-rosalind-719eaf.netlify.app/"
           target="_blank"
           rel="noreferrer"
         >
           hosted on Netlify
+        </a>
         </a>
         </footer>
         </div>
