@@ -9,13 +9,13 @@ export default function App() {
       <h1>Krista's Weather App</h1>
       <Weather defaultCity="Dallas" />
       <footer>
-        Project was coded by Krista Gonzalez, open-sourced on GitHub
+
         <a
           href="https://github.com/knd-codes/react-wk4"
           target="_blank"
           rel="noreferrer"
-        >
-       {" "} and {" "}
+        >Open-source code by Krista Gonzalez
+        </a> ,{" "}
         <a
           href="https://friendly-rosalind-719eaf.netlify.app/"
           target="_blank"
@@ -23,7 +23,7 @@ export default function App() {
         >
           hosted on Netlify
         </a>
-        </a>
+        
         </footer>
         </div>
   );
