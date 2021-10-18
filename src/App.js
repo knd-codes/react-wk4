@@ -18,7 +18,7 @@ export default function App() {
         </a>
        {" "} and {" "}
         <a
-          href=""
+          href="https://nervous-fermi-738c74.netlify.app"
           target="_blank"
           rel="noreferrer"
         >
