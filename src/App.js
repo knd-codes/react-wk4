@@ -1,25 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import Weather from "./Weather.js";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+      <div className="container"></div>
+      <h1>Krista's Weather App</h1>
+      <Weather defaultCity="Dallas" />
+      <footer>
+        Project was coded by Krista Gonzalez, open-sourced on GitHub
         <a
-          className="App-link"
-          href="https://reactjs.org"
+          href="https://github.com/knd-codes/weather-react.git"
           target="_blank"
-          rel="noopener noreferrer"
+          rel="noreferrer"
         >
-          Learn React
         </a>
-      </header>
-    </div>
+       {" "} and {" "}
+        <a
+          href=""
+          target="_blank"
+          rel="noreferrer"
+        >
+          hosted on Netlify
+        </a>
+        </footer>
+        </div>
   );
 }
-
-export default App;
