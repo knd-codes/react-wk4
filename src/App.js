@@ -11,7 +11,7 @@ export default function App() {
       <footer>
         Project was coded by Krista Gonzalez, open-sourced on GitHub
         <a
-          href="https://github.com/knd-codes/weather-react.git"
+          href="https://github.com/knd-codes/react-wk4"
           target="_blank"
           rel="noreferrer"
         >
